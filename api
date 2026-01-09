@@ -1,0 +1,31 @@
+*/for frontend*/
+http://127.0.0.1:5000/dashboard
+
+*/API*/
+Method : GET
+http://127.0.0.1:5000
+
+http://127.0.0.1:5000/api/balance
+
+http://127.0.0.1:5000/api/stocks
+
+http://127.0.0.1:5000/api/wishlist/check
+
+
+Method : POST
+http://127.0.0.1:5000/api/wishlist
+Click Body
+Select raw
+Select JSON
+
+{
+  "symbol": "TCS",
+  "target_price": 3500
+}
+
+
+http://127.0.0.1:5000/api/order/buy
+
+{
+  "symbol": "TCS"
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trading Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+   
+</head>
+<body>
+
+<header>
+    <h1>📈 Trading Dashboard</h1>
+    <p>Training system (NIFTY stocks)</p>
+</header>
+
+<section class="balance-card">
+    <h2>Available Balance</h2>
+    <div id="balance" class="balance-amount">₹ --</div>
+</section>
+
+<section class="stocks-section">
+    <h2>NIFTY Stocks</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Stock</th>
+                <th>Live Price</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="stocks-table">
+        </tbody>
+    </table>
+</section>
+
+<section class="wishlist-section">
+    <h2>Create Buy Strategy</h2>
+
+    <div class="form">
+        <input type="text" id="symbol" placeholder="Stock (TCS)">
+        <input type="number" id="target" placeholder="Target Buy Price">
+        <button onclick="addWishlist()">Add Strategy</button>
+    </div>
+</section>
+
+<footer>
+    <p>Training Project – Internship Demo</p>
+</footer>
+
+<script src="/static/script.js"></script>
+</body>
+</html>

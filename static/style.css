@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: #f5f7fb;
+    color: #222;
+}
+
+/* Header */
+header {
+    background: #0f172a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Balance */
+.balance-card {
+    background: white;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.balance-amount {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Stocks */
+.stocks-section {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #f1f5f9;
+    text-align: left;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1e40af;
+}
+
+/* Wishlist */
+.wishlist-section {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.form {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    padding: 8px;
+    flex: 1;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    color: #555;
+}
